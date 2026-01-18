@@ -3,3 +3,9 @@ variable "ssh_key_name" {
   type        = string
   default     = "DevOps-Shack"
 }
+
+variable "instance_type" {
+  description = "EKS node instance type"
+  type        = string
+  default     = "m7i-flex.large"
+}
